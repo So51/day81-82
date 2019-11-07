@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>elementFromPoint مثال</title>
+
+<script>
+function changeColor(newColor) {
+  elem = document.elementFromPoint(2, 2);
+  elem.style.color = newColor;
+}
+</script>
+</head>
+
+<body>
+<p id="para1">محتوى نصيّ</p>
+<button onclick="changeColor('blue');">أزرق</button>
+<button onclick="changeColor('red');">أحمر</button>
+</body>
+</html>
